@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\title{Exercise 1.2.4}
+\author{Carl}
+\date{April 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{Exercise 1.2.4}
+Define $A_p$ for $p$ prime as follows:
+
+\begin{align*}
+    A_2&=2\mathbb{N}\\
+    A_3&=3\mathbb{N}-A_2\\
+    A_5&=5\mathbb{N}-(A_2 \cup A_3)\\
+    A_7&=7\mathbb{N}-(A_2 \cup A_3 \cup A_5)\\
+    \vdots
+\end{align*}
+
+You can re-index these sets as $A_1$, $A_2$, $\dots$ if you like.  First we prove that each set has an infinite number of elements. The set $\{p, p^2, p^3, \dots\} \subset A_p$ since no powers of $p$ are in any of the sets $A_q$ for $q < p$.  Clearly $\{p, p^2, p^3, \dots\}$ has infinitely many elements. Next we show that any two sets are pairwise disjoint.  But, this is true by construction: each $A_p$ excluded any integers in a a previous set.
+
+
+
+\end{document}
